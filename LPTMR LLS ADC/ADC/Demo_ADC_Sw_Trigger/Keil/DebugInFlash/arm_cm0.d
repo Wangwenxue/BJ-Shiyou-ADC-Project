@@ -1,0 +1,16 @@
+.\debuginflash\arm_cm0.o: ..\Source\common\arm_cm0.c
+.\debuginflash\arm_cm0.o: ..\Source\App\includes.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\debuginflash\arm_cm0.o: ..\Source\common\headers\MKL25Z4.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\debuginflash\arm_cm0.o: ..\Source\common\system_MKL25Z4.h
+.\debuginflash\arm_cm0.o: ..\Source\common\core_cm0.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\debuginflash\arm_cm0.o: C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\debuginflash\arm_cm0.o: ..\Source\Drv\adc\MKL_adc.h
+.\debuginflash\arm_cm0.o: ..\Source\Drv\uart\MKL_uart.h
+.\debuginflash\arm_cm0.o: ..\Source\Drv\lptmr\MKL_lptmr.h
+.\debuginflash\arm_cm0.o: ..\Source\App\main.h

@@ -1,0 +1,86 @@
+Dependencies for Project 'kinetis_l_demo', Target 'DebugInFlash': (DO NOT MODIFY !)
+F (..\Source\common\system_MKL25Z4.c)(0x52BA843D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -o .\debuginflash\system_mkl25z4.o --omf_browse .\debuginflash\system_mkl25z4.crf --depend .\debuginflash\system_mkl25z4.d)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Source\common\headers\MKL25Z4_CMSIS.h)(0x50568660)
+I (..\Source\common\system_MKL25Z4.h)(0x50C70BA3)
+I (..\Source\common\core_cm0plus.h)(0x4F72C5BA)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+F (..\Source\common\arm_cm0.c)(0x50C6FDE5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -o .\debuginflash\arm_cm0.o --omf_browse .\debuginflash\arm_cm0.crf --depend .\debuginflash\arm_cm0.d)
+I (..\Source\App\includes.h)(0x5209CC66)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\ctype.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (..\Source\common\headers\MKL25Z4.h)(0x52BA39CA)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Source\common\system_MKL25Z4.h)(0x50C70BA3)
+I (..\Source\common\core_cm0.h)(0x4F72C5BA)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Source\Drv\adc\MKL_adc.h)(0x5209D024)
+I (..\Source\Drv\uart\MKL_uart.h)(0x5209D1E6)
+I (..\Source\App\main.h)(0x5209D018)
+F (..\Source\common\startup_MKL25Z4.s)(0x52B3F7E1)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis--list .\startup_mkl25z4.lst --xref -o .\debuginflash\startup_mkl25z4.o --depend .\debuginflash\startup_mkl25z4.d)
+F (..\Source\App\main.c)(0x5209CFD9)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -o .\debuginflash\main.o --omf_browse .\debuginflash\main.crf --depend .\debuginflash\main.d)
+I (..\Source\App\includes.h)(0x5209CC66)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\ctype.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (..\Source\common\headers\MKL25Z4.h)(0x52BA39CA)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Source\common\system_MKL25Z4.h)(0x50C70BA3)
+I (..\Source\common\core_cm0.h)(0x4F72C5BA)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Source\Drv\adc\MKL_adc.h)(0x5209D024)
+I (..\Source\Drv\uart\MKL_uart.h)(0x5209D1E6)
+I (..\Source\App\main.h)(0x5209D018)
+F (..\Source\App\includes.h)(0x5209CC66)()
+F (..\Source\Drv\adc\MKL_adc.c)(0x5209CC9C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -o .\debuginflash\mkl_adc.o --omf_browse .\debuginflash\mkl_adc.crf --depend .\debuginflash\mkl_adc.d)
+I (..\Source\Drv\adc\..\..\App\includes.h)(0x5209CC66)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\ctype.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (..\Source\common\headers\MKL25Z4.h)(0x52BA39CA)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Source\common\system_MKL25Z4.h)(0x50C70BA3)
+I (..\Source\common\core_cm0.h)(0x4F72C5BA)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Source\Drv\adc\MKL_adc.h)(0x5209D024)
+I (..\Source\Drv\uart\MKL_uart.h)(0x5209D1E6)
+I (..\Source\Drv\adc\..\..\App\main.h)(0x5209D018)
+F (..\Source\Drv\uart\MKL_uart.c)(0x5209D2BC)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -o .\debuginflash\mkl_uart.o --omf_browse .\debuginflash\mkl_uart.crf --depend .\debuginflash\mkl_uart.d)
+I (..\Source\App\includes.h)(0x5209CC66)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\ctype.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (..\Source\common\headers\MKL25Z4.h)(0x52BA39CA)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Source\common\system_MKL25Z4.h)(0x50C70BA3)
+I (..\Source\common\core_cm0.h)(0x4F72C5BA)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Source\Drv\adc\MKL_adc.h)(0x5209D024)
+I (..\Source\Drv\uart\MKL_uart.h)(0x5209D1E6)
+I (..\Source\App\main.h)(0x5209D018)
+F (..\Source\Drv\uart\retarget_mdk.c)(0x50C7EC34)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart-I F:\Tools\Keil4.73\ARM\RV31\INC-I F:\Tools\Keil4.73\ARM\CMSIS\Include-I F:\Tools\Keil4.73\ARM\Inc\Freescale\Kinetis-DKEIL -DFREEDOM -DCMSIS -o .\debuginflash\retarget_mdk.o --omf_browse .\debuginflash\retarget_mdk.crf --depend .\debuginflash\retarget_mdk.d)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\rt_misc.h)(0x51C7B744)
+I (..\Source\App\includes.h)(0x5209CC66)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\ctype.h)(0x51C7B744)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (..\Source\common\headers\MKL25Z4.h)(0x52BA39CA)
+I (F:\Tools\Keil4.73\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (..\Source\common\system_MKL25Z4.h)(0x50C70BA3)
+I (..\Source\common\core_cm0.h)(0x4F72C5BA)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmInstr.h)(0x5209A730)
+I (F:\Tools\Keil4.73\ARM\CMSIS\Include\core_cmFunc.h)(0x5209A732)
+I (..\Source\Drv\adc\MKL_adc.h)(0x5209D024)
+I (..\Source\Drv\uart\MKL_uart.h)(0x5209D1E6)
+I (..\Source\App\main.h)(0x5209D018)

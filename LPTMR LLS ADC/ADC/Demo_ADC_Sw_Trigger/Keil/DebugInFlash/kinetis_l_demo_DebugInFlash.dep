@@ -1,0 +1,108 @@
+Dependencies for Project 'kinetis_l_demo', Target 'DebugInFlash': (DO NOT MODIFY !)
+F (..\Source\common\system_MKL25Z4.c)(0x53C8C5F7)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\system_mkl25z4.o --omf_browse .\debuginflash\system_mkl25z4.crf --depend .\debuginflash\system_mkl25z4.d)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4_CMSIS.h)(0x53C8C5F8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0plus.h)(0x53C8C5F7)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+F (..\Source\common\arm_cm0.c)(0x53C8C5F6)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\arm_cm0.o --omf_browse .\debuginflash\arm_cm0.crf --depend .\debuginflash\arm_cm0.d)
+I (..\Source\App\includes.h)(0x562E182A)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4.h)(0x53C8C5F8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0.h)(0x53C8C5F6)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\Source\Drv\adc\MKL_adc.h)(0x53C8C5F6)
+I (..\Source\Drv\uart\MKL_uart.h)(0x53C8C5F6)
+I (..\Source\Drv\lptmr\MKL_lptmr.h)(0x562E10AF)
+I (..\Source\App\main.h)(0x53C8C5F9)
+F (..\Source\common\startup_MKL25Z4.s)(0x53C8C5F7)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "MKL26Z128xxx4 SETA 1"--list .\startup_mkl25z4.lst --xref -o .\debuginflash\startup_mkl25z4.o --depend .\debuginflash\startup_mkl25z4.d)
+F (..\Source\App\main.c)(0x562E1D13)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\main.o --omf_browse .\debuginflash\main.crf --depend .\debuginflash\main.d)
+I (..\Source\App\includes.h)(0x562E182A)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4.h)(0x53C8C5F8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0.h)(0x53C8C5F6)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\Source\Drv\adc\MKL_adc.h)(0x53C8C5F6)
+I (..\Source\Drv\uart\MKL_uart.h)(0x53C8C5F6)
+I (..\Source\Drv\lptmr\MKL_lptmr.h)(0x562E10AF)
+I (..\Source\App\main.h)(0x53C8C5F9)
+F (..\Source\App\includes.h)(0x562E182A)()
+F (..\Source\Drv\adc\MKL_adc.c)(0x562E1C46)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\mkl_adc.o --omf_browse .\debuginflash\mkl_adc.crf --depend .\debuginflash\mkl_adc.d)
+I (..\Source\Drv\adc\..\..\App\includes.h)(0x562E182A)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4.h)(0x53C8C5F8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0.h)(0x53C8C5F6)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\Source\Drv\adc\MKL_adc.h)(0x53C8C5F6)
+I (..\Source\Drv\uart\MKL_uart.h)(0x53C8C5F6)
+I (..\Source\Drv\lptmr\MKL_lptmr.h)(0x562E10AF)
+I (..\Source\Drv\adc\..\..\App\main.h)(0x53C8C5F9)
+F (..\Source\Drv\uart\MKL_uart.c)(0x53C8C5F6)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\mkl_uart.o --omf_browse .\debuginflash\mkl_uart.crf --depend .\debuginflash\mkl_uart.d)
+I (..\Source\App\includes.h)(0x562E182A)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4.h)(0x53C8C5F8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0.h)(0x53C8C5F6)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\Source\Drv\adc\MKL_adc.h)(0x53C8C5F6)
+I (..\Source\Drv\uart\MKL_uart.h)(0x53C8C5F6)
+I (..\Source\Drv\lptmr\MKL_lptmr.h)(0x562E10AF)
+I (..\Source\App\main.h)(0x53C8C5F9)
+F (..\Source\Drv\uart\retarget_mdk.c)(0x53C8C5F6)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\retarget_mdk.o --omf_browse .\debuginflash\retarget_mdk.crf --depend .\debuginflash\retarget_mdk.d)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\App\includes.h)(0x562E182A)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0.h)(0x53C8C5F6)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\Source\Drv\adc\MKL_adc.h)(0x53C8C5F6)
+I (..\Source\Drv\uart\MKL_uart.h)(0x53C8C5F6)
+I (..\Source\Drv\lptmr\MKL_lptmr.h)(0x562E10AF)
+I (..\Source\App\main.h)(0x53C8C5F9)
+F (..\Source\Drv\lptmr\MKL_lptmr.c)(0x562E19B8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork -I..\Source\App -I..\Source\common -I..\Source\common\headers -I..\Source\Drv\adc -I..\Source\Drv\uart -I..\Source\Drv\lptmr-I "C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE"-I C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include-I C:\Freescale\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DMKL26Z128xxx4 -DKEIL -DFREEDOM -DCMSIS-o .\debuginflash\mkl_lptmr.o --omf_browse .\debuginflash\mkl_lptmr.crf --depend .\debuginflash\mkl_lptmr.d)
+I (..\Source\Drv\lptmr\..\..\App\includes.h)(0x562E182A)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\Source\common\headers\MKL25Z4.h)(0x53C8C5F8)
+I (C:\Freescale\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\Source\common\system_MKL25Z4.h)(0x53C8C5F8)
+I (..\Source\common\core_cm0.h)(0x53C8C5F6)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x53463974)
+I (C:\Freescale\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x53463974)
+I (..\Source\Drv\adc\MKL_adc.h)(0x53C8C5F6)
+I (..\Source\Drv\uart\MKL_uart.h)(0x53C8C5F6)
+I (..\Source\Drv\lptmr\MKL_lptmr.h)(0x562E10AF)
+I (..\Source\Drv\lptmr\..\..\App\main.h)(0x53C8C5F9)

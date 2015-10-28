@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Wenxue Wang, FSL, LIC=DSN05-0UP2J-64NF8-LP65P-0CQLW-6DJ2R
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  C:\Freescale\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\kinetis_l_demo.uvprojx
+Project File Date:  10/26/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Freescale\Keil_v5\ARM\ARMCC\Bin'
+Build target 'DebugInFlash'
+compiling main.c...
+..\Source\App\main.c(58): warning:  #1295-D: Deprecated declaration Port_Init - give arg types
+  void Port_Init();
+..\Source\App\main.c(403): warning:  #223-D: function "pbe_pee" declared implicitly
+                        mcg_clk_hz = pbe_pee(CLK0_FREQ_HZ);
+..\Source\App\main.c(389): warning:  #177-D: variable "fcrdiv_val" was declared but never referenced
+        unsigned char op_mode,fcrdiv_val;
+..\Source\App\main.c(390): warning:  #550-D: variable "mcg_clk_hz" was set but never used
+        int mcg_clk_hz;
+..\Source\App\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=5988 RO-data=1028 RW-data=16 ZI-data=1024  
+FromELF: creating hex file...
+After Build - User command #1: C:\Freescale\Keil_v5\\ARM\ARMCC\bin\fromelf.exe --bincombined --output=.\DebugInFlash\MKL_DebugInFlash.bin .\DebugInFlash\MKL_DebugInFlash.axf
+".\DebugInFlash\MKL_DebugInFlash.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\b51443\Desktop\LPTMR ADC LLS - 3\ADC\Demo_ADC_Sw_Trigger\Keil\RTE
+  C:\Freescale\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.6.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
